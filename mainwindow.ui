@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>993</width>
+    <height>656</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout_2">
+    <item row="0" column="0">
+     <widget class="QLabel" name="label">
+      <property name="text">
+       <string>Account Viewer</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QComboBox" name="comboBox">
+      <item>
+       <property name="text">
+        <string>Google</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>ProtonMail</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Github</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Minecraft</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Microsoft</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Arch</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item row="1" column="0" colspan="3">
+     <layout class="QGridLayout" name="gridLayout">
+      <item row="4" column="8">
+       <widget class="QLabel" name="label_10">
+        <property name="text">
+         <string>Answer</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="0">
+       <widget class="QLabel" name="label_2">
+        <property name="text">
+         <string>Account Name</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="5">
+       <widget class="QLineEdit" name="lineUsername"/>
+      </item>
+      <item row="2" column="8" colspan="2">
+       <widget class="QLabel" name="label_7">
+        <property name="text">
+         <string>Answer</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="10" colspan="3">
+       <widget class="QLineEdit" name="lineAnswer2"/>
+      </item>
+      <item row="1" column="4">
+       <widget class="QLabel" name="label_12">
+        <property name="text">
+         <string>Location?</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="0" colspan="2">
+       <widget class="QLabel" name="label_9">
+        <property name="text">
+         <string>Secret Question 1</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="0" colspan="2">
+       <widget class="QLabel" name="label_6">
+        <property name="text">
+         <string>Secret Question 1</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="2" colspan="5">
+       <widget class="QLineEdit" name="lineQuestion1"/>
+      </item>
+      <item row="4" column="2" colspan="6">
+       <widget class="QLineEdit" name="lineQuestion3"/>
+      </item>
+      <item row="1" column="1" colspan="3">
+       <widget class="QLineEdit" name="lineEmail"/>
+      </item>
+      <item row="0" column="7" colspan="6">
+       <widget class="QLineEdit" name="linePassword"/>
+      </item>
+      <item row="3" column="8">
+       <widget class="QLabel" name="label_8">
+        <property name="text">
+         <string>Answer</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="4">
+       <widget class="QLabel" name="label_3">
+        <property name="text">
+         <string>Username</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="6">
+       <widget class="QLabel" name="label_4">
+        <property name="text">
+         <string>Password</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="10" colspan="3">
+       <widget class="QLineEdit" name="lineAnswer1"/>
+      </item>
+      <item row="4" column="10" colspan="3">
+       <widget class="QLineEdit" name="lineAnswer3"/>
+      </item>
+      <item row="0" column="1" colspan="3">
+       <widget class="QLineEdit" name="lineAccountName"/>
+      </item>
+      <item row="4" column="0" colspan="2">
+       <widget class="QLabel" name="label_11">
+        <property name="text">
+         <string>Secret Question 1</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="2" colspan="6">
+       <widget class="QLineEdit" name="lineQuestion2"/>
+      </item>
+      <item row="1" column="0">
+       <widget class="QLabel" name="label_5">
+        <property name="text">
+         <string>Email</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="5">
+       <widget class="QLineEdit" name="lineLocation"/>
+      </item>
+     </layout>
+    </item>
+    <item row="2" column="0">
+     <widget class="QPushButton" name="btnApply">
+      <property name="text">
+       <string>Apply</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1">
+     <widget class="QPushButton" name="btnHide">
+      <property name="text">
+       <string>Hide</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="2">
+     <widget class="QPushButton" name="btnCancel">
+      <property name="text">
+       <string>Cancel</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>993</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>File</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuAbout">
+    <property name="title">
+     <string>About</string>
+    </property>
+    <addaction name="actionAbout_Qt"/>
+    <addaction name="actionLicense_Info"/>
+    <addaction name="actionGithub"/>
+   </widget>
+   <addaction name="menuFile"/>
+   <addaction name="menuAbout"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionAbout_Qt">
+   <property name="text">
+    <string>About Qt</string>
+   </property>
+  </action>
+  <action name="actionLicense_Info">
+   <property name="text">
+    <string>License Info</string>
+   </property>
+  </action>
+  <action name="actionGithub">
+   <property name="text">
+    <string>Github</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
